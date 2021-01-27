@@ -1,0 +1,329 @@
+@media(max-width: 1250px){
+    .product-item__wrap{
+        overflow-x: scroll;
+        padding-bottom: 10px;
+    }
+    .item-quests{
+        margin-right: 17px;
+        flex: 0 0 292px;
+    }
+    .item-quests:last-child{
+        margin: 0;
+    }
+    .item-hotel{
+        margin-right: 91px;
+        flex: 0 0 567px;
+    }
+    .item-hotel:last-child{
+        margin: 0;
+    }
+}
+@media(max-width: 1032px){
+    .tab-item{
+        margin-bottom: 10px;
+    }
+    .footer-inner{
+        flex-wrap: wrap;
+    }
+    .footer-wrap{
+        margin-bottom: 40px;
+    }
+    .footer-wrap:last-child{
+        margin-bottom: 0;
+    }
+    .footer-top{
+        padding: 52px 0;
+    }
+}
+@media(max-width: 680px){
+    .footer-accordion__wrapper{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .tab-filter__wrap{
+        padding-bottom: 10px;
+    }
+    .offer-inner {
+        display: unset;
+    }
+    .search form{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .heading-text{
+        margin-bottom: 49px;
+    }
+    .heading-text h1{
+        margin: 0;
+    }
+    .heading-text p{
+        display: none;
+    }
+    .search button, .search input{
+        width: 100%;
+    }
+    .search button{
+        margin: 0;
+    }
+    .search input{
+        margin-bottom: 10px;
+    }
+    .tab-link{
+        padding: 9px 15px;
+        background: #fff;
+        color: #0c73fe;
+    }
+    .search {
+        margin-bottom: 85px;
+    }
+    .footer-inner{
+        display: unset;
+    }
+    .footer-inner__desktop{
+        display: none;
+    }
+    .accordion-item{
+        padding: 15px 0;
+        border-bottom: 1px solid rgba(100, 100, 100, 0.50);
+    }
+    .accordion-button{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    .accordion-title{
+        font-weight: 700;
+        font-size: 16px;
+        color: #fff;
+    }
+    .arrow{
+        color: #fff;
+    }
+    .accordion-list{
+        display: none;
+        padding-top: 20px;
+    }
+    .list-active{
+        display: block;
+    }
+    .footer-wrap{
+        margin-bottom: 0;
+    }
+    .footer-wrap__mobile{
+        display: block;
+    }
+    .footer-wrap:last-child{
+        margin-top: 40px;
+    }
+    .footer-list__title{
+        margin-bottom: 0;
+    }
+    .footer-list__heading p{
+        font-size: 15px;
+    }
+    .product-information{
+        position: absolute;
+    }
+    .product-information-quests{
+        bottom: 0;
+    }
+    .information-hotel {
+        top: 0;
+        bottom: 0;
+    }
+    .item-quests {
+        overflow: hidden;
+        flex: 0 0 250px;
+        height: 290px;
+    }
+    .item-hotel{
+        height: 200px;
+    }
+    .item-hotel {
+        overflow: hidden;
+        margin-right: 30px;
+        flex: 0 0 350px;
+    }
+    .product-item{
+        background: #292929;
+    }
+    .product-img img{
+        opacity: 0.4;
+    }
+    .img-quests, .img-hotel{
+        border-radius: 0;
+    }
+    .img-quests{
+        height: 100%;
+    }
+    .img-hotel {
+        width: 100%;
+    }
+    .product-name{
+        margin-bottom: 19px;
+    }
+    .product-name a{
+        color: #fff;
+    }
+    .product-description p {
+        color: #fff;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .product-information-quests .product-infographics__item{
+        display: none;
+    }
+    .product-information {
+        padding: 10px 21px;
+    }
+    .icon, .text, .text a, .quantity{
+        color: #fff;
+    }
+    .footer-top {
+        padding: 52px 0 20px 0;
+    }
+}
+@media(max-width: 470px){
+    .heading-text h1, .banner-text h1, .airline-heading h1{
+        font-size: 34px;
+    }
+    .banner-text p{
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .logo{
+        height: 23px;
+        width: 20px;
+    }
+    .footer-form {
+        width: 100%;
+    }
+    .tab-filter__wrap{
+       overflow-x: unset;
+    }
+    .filter-list {
+        justify-content: center;
+     }
+    .product-item__list{
+        flex-wrap: wrap;
+    }
+    .product-item{
+        flex: none;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .product-item__wrap{
+        overflow-x: unset;
+        padding-bottom: 0;
+    }
+    .airline-heading,.product-item__wrap{
+        margin-bottom: 30px;
+    }
+    .item-quests,.item-hotel{
+        width: 100%;
+        height: 200px;
+    }
+    .button-header{
+        width: 41px;
+        height: 41px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-header img{
+        width: 18px;
+        height: 18px;
+    }
+    .menu-list{
+        display: none;
+    }
+    .menu-mobile{
+        z-index: 1;
+        background: #263356;
+        box-shadow: -5px 6px 26px -8px rgba(0,0,0,0.60);
+        position: absolute;
+        transition: all 0.3s;
+        height: 100%;
+        width: 100%;
+        right: 0;
+        display: none;
+        top: 0;
+        overflow: auto;
+    }
+    .mobile-active{
+        display: block;
+        transition: all 0.3s;
+    }
+    .moblie-menu__content{
+        display: block;
+        position: relative;
+        padding: 0 15px;
+    }
+    .close{
+        width: 41px;
+        height: 41px;
+        font-size: 17px;
+        color: #fff;
+    }
+    .heading-mobile{
+        left: 0;
+        right: 0;
+        height: 65px;
+        padding: 0 15px; 
+        position: fixed;
+        width: 100%;
+        z-index: 5;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #263356;
+    }
+    .logo-mobile{
+        font-family: 'AdobeCleanRegular';
+        width: 50px;
+        margin: 0 auto;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 700;
+    }
+    .mobile-navigation{
+        display: flex;
+    }
+    .mobile-list{
+        margin-top: 30px;
+    }
+    .mobile-list li{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin-bottom: 37px;
+    }
+    .mobile-list li a{
+        text-align: center;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 17px;
+    }
+    .container{
+        padding: 0 15px;
+    }
+    .footer-navigation{
+        position: absolute;
+        bottom: 10px;
+    }
+    .tab-item {
+        margin: 0;
+    }
+    .tab-link{
+       font-weight: 700;
+       background: none;
+       border: none;
+       color: #fff;
+    }
+    .tab-link i {
+        display: none;
+    }
+    .footer-description{
+        text-align: center;
+    }
+}
